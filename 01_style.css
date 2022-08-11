@@ -1,0 +1,109 @@
+.body{
+    background: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hobbi{
+    background: rgb(163, 233, 233);
+    margin: 8px;
+    border-radius: 7px;
+    padding: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.work{
+    background: rgb(185, 184, 206);
+    margin: 8px;
+    border-radius: 7px;
+    padding: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(94, 71, 71);
+}
+
+.form h2{
+    text-align: center;
+}
+
+.saite{
+    font-style: italic;
+}
+
+a:hover{
+text-decoration: none;
+}
+
+a:visited{
+    color: rgb(26, 194, 110);
+}
+.foto{
+size: 50px;
+margin-top: 30px;
+margin-left: 10px;
+height: 230px;
+width: 200px;
+border-radius: 9px;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 25)
+}
+
+.aside{
+    display: flex;
+}
+
+.info{
+    padding-left: 30px;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid#ccc;
+    color: #000;
+    outline: none;
+    padding: 15px 0 10px;
+}
+
+.form-row .form-group{
+display: inline-block;
+margin-right: 20px;
+width: 50%;
+}
+
+.form-row .form-group:last-child{
+    margin-right: 0;
+}
+
+.form-row{
+    margin-bottom: 10px;
+display: flex;
+}
+
+@media(max-wight:500px){
+    .box{
+        font-size: 1.5rem;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.btn{
+    background: rgb(100, 120, 121);
+    color: rgb(8, 189, 68);
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
